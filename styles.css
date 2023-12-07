@@ -1,9 +1,10 @@
 body {
-    background-color: #f8f9fa;
+    background-color: #fde9e9; /* Soft pink background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-    background-color: #343a40;
+    background-color: #e44d26; /* Romantic red */
     padding: 20px;
     color: #ffffff;
     margin-bottom: 20px;
@@ -15,8 +16,25 @@ header {
 
 img {
     margin-top: 20px;
+    border-radius: 10px; /* Add rounded corners to images */
 }
 
-h2 {
-    color: #e44d26;
+h1, h2 {
+    color: #e44d26; /* Romantic red for headers */
+}
+
+p {
+    color: #4c4c4c; /* Dark gray for paragraphs */
+}
+
+/* Add some decorative elements */
+.decorative-border {
+    border: 2px solid #e44d26;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Add a subtle box shadow to images on hover for a playful effect */
+img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
