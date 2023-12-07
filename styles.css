@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    padding: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#love-story, #surprises {
+    margin-bottom: 40px;
+}
+
+img {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #e44d26;
+}
