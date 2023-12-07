@@ -1,16 +1,16 @@
 body {
-    background-color: #fde9e9; /* Soft pink background */
+    background-color: #ffe5e5; /* Light red background */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-    background-color: #e44d26; /* Romantic red */
+    background-color: #ff3333; /* Deep red */
     padding: 20px;
     color: #ffffff;
     margin-bottom: 20px;
 }
 
-#love-story, #surprises {
+#love-story, #romantic-messages, #photo-gallery, #love-quotes {
     margin-bottom: 40px;
 }
 
@@ -19,17 +19,25 @@ img {
     border-radius: 10px; /* Add rounded corners to images */
 }
 
-h1, h2 {
-    color: #e44d26; /* Romantic red for headers */
+h2 {
+    color: #ff3333; /* Deep red for headers */
 }
 
 p {
     color: #4c4c4c; /* Dark gray for paragraphs */
 }
 
+.message-card {
+    background-color: #ffe5e5; /* Light red background for message cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
 /* Add some decorative elements */
 .decorative-border {
-    border: 2px solid #e44d26;
+    border: 2px solid #ff3333; /* Deep red border */
     border-radius: 10px;
     padding: 10px;
 }
@@ -37,4 +45,32 @@ p {
 /* Add a subtle box shadow to images on hover for a playful effect */
 img:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the carousel */
+.carousel-inner {
+    background-color: #ffcccc; /* Light red background for carousel */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Customize carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ff3333; /* Deep red */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    background: none;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background: #ff3333; /* Dark
 }
